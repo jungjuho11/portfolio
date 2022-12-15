@@ -22,6 +22,9 @@ const Navbar = () => {
                             <ul className="dropdown-menu">
                                 <li><Link to="/calculator" className="dropdown-item">Calculator</Link></li>
                                 <li><Link to="/quotecalc" className="dropdown-item">Quote Calculator</Link></li>
+                                <li><Link to="/pingpong" className="dropdown-item">Ping Pong</Link></li>
+                                <li><Link to="/shuffleboard" className="dropdown-item">Shuffleboard</Link></li>
+                                <li><Link to="/todo" className="dropdown-item">Todo</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link to="/" className="dropdown-item">Action</Link></li>
                             </ul>

@@ -6,6 +6,9 @@ import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import Calculator from './Components/calculator/Calculator';
 import QuoteCalc from './Components/quoteCalc/QuoteCalc';
+import PingPong from './Components/pingpong/Pingpong'
+import Shuffleboard from './Components/shuffleboard/Shuffleboard';
+import Todo from './Components/todo/Todo';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/calculator' element={<Calculator />} />
         <Route path='/quotecalc' element={<QuoteCalc />} />
+        <Route path='/pingpong' element={<PingPong />} />
+        <Route path='/shuffleboard' element={<Shuffleboard />} />
+        <Route path='/todo' element={<Todo />} />
       </Routes>
       {/* <Footer/> */}
     </Router>
