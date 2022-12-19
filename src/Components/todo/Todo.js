@@ -49,7 +49,7 @@ const Todo = () => {
             <button onClick={createUser}>Create User</button> {/* there's no arrow function for onClick because 'createUser' does not take in any arguments */}
             {users.map((user) => {
                 return (
-                    <div>
+                    <div key={user.id}>
                         <h1>Name: {user.name}</h1>
                         <h2>Age: {user.age}</h2>
                         <button onClick={() => {updateUser(user.id, user.age)}}>Increase Age</button> {/* because the function 'updateUser' has arguments, we have to make it arrow function */}

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import '../style/navbar.css';
+import './navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md bg-light">
+        <nav className="navbar navbar-expand-md">
             <div className="container-fluid">
                 {/* <Link to="/" className='navbar-brand'>JJ Porfolio</Link> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,14 +12,14 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link to="/" className='nav-link active' aria-current="page">Home</Link>
+                            <Link to="/" className='nav-link active text-color' aria-current="page">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/aboutme" className="nav-link">About Me</Link>
+                            <Link to="/aboutme" className="nav-link text-color">About Me</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="/" className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</Link>
-                            <ul className="dropdown-menu">
+                            <Link to="/" className="nav-link dropdown-toggle text-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</Link>
+                            <ul className="dropdown-menu animate__animated animate__fadeIn animate__faster">
                                 <li><Link to="/calculator" className="dropdown-item">Calculator</Link></li>
                                 <li><Link to="/quotecalc" className="dropdown-item">Quote Calculator</Link></li>
                                 <li><Link to="/pingpong" className="dropdown-item">Ping Pong</Link></li>
