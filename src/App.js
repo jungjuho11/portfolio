@@ -10,11 +10,14 @@ import PingPong from './Components/pingpong/Pingpong'
 import Shuffleboard from './Components/shuffleboard/Shuffleboard';
 import Todo from './Components/todo/Todo';
 
+import './app.css'
+
 function App() {
+  document.body.style.backgroundColor = '#e5e5e5';
   return (
     <Router>
       <Navbar />
-      <Routes>
+      <Routes className="app">
         <Route path='/' element={<Home />} />
         <Route path='/aboutme' element={<AboutMe/>} />
         <Route path='/projects' element={<Projects />} />

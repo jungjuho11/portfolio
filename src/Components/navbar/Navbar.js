@@ -3,7 +3,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md">
+        <nav className="navbar navbar-expand-md mb-5">
             <div className="container-fluid">
                 {/* <Link to="/" className='navbar-brand'>JJ Porfolio</Link> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
