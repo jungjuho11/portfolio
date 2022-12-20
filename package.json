@@ -10,6 +10,7 @@
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
     "env-cmd": "^10.1.0",
     "firebase": "^9.15.0",
     "jquery": "^3.6.2",

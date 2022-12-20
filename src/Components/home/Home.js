@@ -3,27 +3,67 @@ import './home.css'
 const Home = () => {
     return (
         <>
-
-
-
-            <div className="container pt-5 mt-5 home">
+            <section className="container vcenterfull d-flex align-items-center">
                 <div className="row">
-                    <div className="col-sm-6 d-flex justify-content-center">
+                    <div className="col-lg-6 d-flex justify-content-center">
                         <img src={require('../../images/spongebob-profile.jpeg')} className='profile-picture animate__animated animate__bounceIn' alt="" />
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-lg-6 px-4">
                         <div className="row h4 pb-3">HI! I'M</div>
                         <div className="row h1 pb-4">JUHO JUNG</div>
-                        <div className="row h5">A Jr. Web Developer working at Milan Laser Hair Removal that is passionate about creating interactive applications and expericnes on the web.</div>
-                        <div className="row col-6 mx-auto">
+                        <div className="row fs-4">A Jr. Web Developer working at Milan Laser Hair Removal that is passionate about creating interactive applications and expericnes on the web.</div>
+                        <div className="row pt-3">
+                            <div className="col-lg-6 px-0 d-grid gap-2 d-md-flex justify-content-md-start">
+                                <button type='button' className='btn home-btn'>Resume</button>
+                            </div>
+                            <div className="col-lg-6 px-0 d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button type='button' className='btn home-btn'>LinkedIn</button>
+                                <button type='button' className='btn home-btn'><i className="bi-github" role="img" aria-label="GitHub"></i></button>
+                            </div>
                             {/* Resume, linkedin, github */}
-                            <button type='button' className='btn'>Resume</button>
                         </div>
                     </div>
 
                 </div>
 
-            </div>
+            </section>
+            <section className="container vcentermid aboutme d-flex align-items-center px-4 px-lg-1">
+                <div className="row">
+                    <span>SOME INFO</span>
+                    <h2>ABOUT ME</h2>
+                    <article>
+                        <p className='fs-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint maiores, expedita, deserunt vitae culpa quam temporibus unde, veritatis porro neque nesciunt. Ad culpa voluptas cupiditate harum alias, consectetur nobis
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint maiores, expedita, deserunt vitae culpa quam temporibus unde, veritatis porro neque nesciunt. Ad culpa voluptas cupiditate harum alias, consectetur nobis?</p>
+                    </article>
+                </div>
+            </section>
+            <section className="container vcentermid aboutme d-flex align-items-center px-4 px-lg-1">
+                <div className="row">
+                    <span>CHECK OUT MY</span>
+                    <h2>SKILLS</h2>
+                    <article>
+                        <p className='fs-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint maiores, expedita, deserunt vitae culpa quam temporibus unde, veritatis porro neque nesciunt. Ad culpa voluptas cupiditate harum alias, consectetur nobis?</p>
+                    </article>
+                </div>
+            </section>
+            <section className="container vcentermid aboutme d-flex align-items-center px-4 px-lg-1">
+                <div className="row">
+                    <span>TAKE A LOOK AT MY</span>
+                    <h2>PROJECTS</h2>
+                    <article>
+                        <p className='fs-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint maiores, expedita, deserunt vitae culpa quam temporibus unde, veritatis porro neque nesciunt. Ad culpa voluptas cupiditate harum alias, consectetur nobis?</p>
+                    </article>
+                </div>
+            </section>
+            <section className="container vcentermid aboutme d-flex align-items-center px-4 px-lg-1">
+                <div className="row">
+                    <span>SAY HELLO</span>
+                    <h2>CONTACT</h2>
+                    <article>
+                        <p className='fs-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam sint maiores, expedita, deserunt vitae culpa quam temporibus unde, veritatis porro neque nesciunt. Ad culpa voluptas cupiditate harum alias, consectetur nobis?</p>
+                    </article>
+                </div>
+            </section>
         </>
     );
 }

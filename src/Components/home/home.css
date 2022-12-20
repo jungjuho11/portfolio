@@ -2,6 +2,24 @@
     border-radius: 50%;
 }
 
-.btn {
+.home-btn {
     background-color: #fca311 !important;
+}
+
+.vcenterfull {
+    height: 100vh;
+}
+
+.vcentermid {
+    height: 75vh;
+}
+
+article {
+    background-color: #ffffff !important;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 0px !important;
 }
