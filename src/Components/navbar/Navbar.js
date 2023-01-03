@@ -3,7 +3,7 @@ import './navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md fixed-top">
+        <nav className="navbar navbar-expand-md fixed-top mb-5">
             <div className="container-fluid">
                 {/* <Link to="/" className='navbar-brand'>JJ Porfolio</Link> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,7 @@ const Navbar = () => {
                                 <li><Link to="/pingpong" className="dropdown-item">Ping Pong</Link></li>
                                 <li><Link to="/shuffleboard" className="dropdown-item">Shuffleboard</Link></li>
                                 <li><Link to="/todo" className="dropdown-item">Todo</Link></li>
+                                <li><Link to="/githubstalker" className="dropdown-item">Github Stalker</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link to="/" className="dropdown-item">Action</Link></li>
                             </ul>

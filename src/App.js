@@ -9,6 +9,7 @@ import QuoteCalc from './Components/quoteCalc/QuoteCalc';
 import PingPong from './Components/pingpong/Pingpong'
 import Shuffleboard from './Components/shuffleboard/Shuffleboard';
 import Todo from './Components/todo/Todo';
+import GithubStalker from './Components/githubStalker/GithubStalker';
 
 import './app.css'
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/pingpong' element={<PingPong />} />
         <Route path='/shuffleboard' element={<Shuffleboard />} />
         <Route path='/todo' element={<Todo />} />
+        <Route path='/githubstalker' element={<GithubStalker />} />
       </Routes>
       {/* <Footer/> */}
     </Router>
